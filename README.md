@@ -2,7 +2,10 @@
 solves the schrodinger equation for the first 4 elements
 
 using numerical approximation for solving the schrodinger equation. the idea is to simply take the infinitesimal iterations
-of calculus and turning them into finite iterations
+of calculus and turning them into finite iterations. For the case of the s orbitals some simplifcation can be made to make 
+this calculation easier. We can turn the 3 dimensional schrodinger equation into a 1 dimensional because the most influential
+varibles for low electron count systems is the distance between the electron and the nucleus. Therefore the equation can be
+reduced to only depend on the distance from the nucleus similar to the particle in a one dimensional box.
 
 Example:
     U_x = U_t     (U_x stands for derivative with respect to x)
@@ -14,13 +17,14 @@ Example:
     
     (U(x1) - U(x0))/(x1-x0) = (U(t1) - U(t0))/(t1-t0)
     
-    from the initial conditions we know the U(x,t) at time zero so we need to solve for what it will be in future time which is U(t1)
+    from the initial conditions we know the U(x,t) at time zero so we need to solve for what it will be in 
+    future time which is U(t1)
     
     (U(x1) - U(x0))* ((x1-x0)/(t1-t0)) + U(t0) = U(t1)
     
-    using this we can solve for what U(x,t) will be at later times. but this only describes U(x,t) with respect to time at the point
-    between x1 and x0 to find the rest of the function of U(x,t) you have to iterate through each X position which makes computers a 
-    very useful tool in solving U(x,t) this way.
+    using this we can solve for what U(x,t) will be at later times. but this only describes U(x,t) with respect
+    to time at the point between x1 and x0 to find the rest of the function of U(x,t) you have to iterate 
+    through each X position which makes computers a very useful tool in solving U(x,t) this way.
     
  
  To run the program simply type "make" in terminal followed by "./output1 n" to display hydrogens wave function. 
