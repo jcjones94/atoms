@@ -23,9 +23,15 @@ Example:
     very useful tool in solving U(x,t) this way.
     
  
- To run the program simple type make in terminal then ./output1 n to display hydrogens wave function. 
+ To run the program simply type make in terminal then ./output1 n to display hydrogens wave function. 
  (n represents the energy level to display. output1 is the only one with this feature).
  
+ first ground state of hydrogen (n = 1)
+ ![hydrogen](https://user-images.githubusercontent.com/29937430/33965057-7b475974-e00f-11e7-9a45-9ba01a185bbf.png)
+
+ distance represents the most probable location to find the electron and energy is just the energy of that 
+ electron or technically the first ionization energy
  
+ second ground state of hydrogen (n = 2)
     
     
