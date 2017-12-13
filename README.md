@@ -23,5 +23,9 @@ Example:
     very useful tool in solving U(x,t) this way.
     
  
+ To run the program simple type make in terminal then ./output1 n to display hydrogens wave function. 
+ (n represents the energy level to display. output1 is the only one with this feature).
+ 
+ 
     
     
