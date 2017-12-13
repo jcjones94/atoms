@@ -22,4 +22,6 @@ Example:
     between x1 and x0 to find the rest of the function of U(x,t) you have to iterate through each X position which makes computers a 
     very useful tool in solving U(x,t) this way.
     
+ 
+    
     
