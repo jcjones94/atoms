@@ -8,10 +8,10 @@ varibles for low electron count systems is the distance between the electron and
 reduced to only depend on the distance from the nucleus similar to the particle in a one dimensional box.
 
 Example:
-    U_x = U_t     (U_x stands for derivative with respect to x)
-    U(0,t) = 0                  
-    U(L,t) = 0                          
-    U(x,0) = f(x)                                               
+    U_x = U_t     (U_x stands for derivative with respect to x)                         
+        U(0,t) = 0                          
+        U(L,t) = 0                            
+        U(x,0) = f(x)    (f(x) is the inital state of the PDE)                                                                 
     
     U_x = U_t turns into the equation below when converting the function to one of discrete incremental change
     
